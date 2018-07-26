@@ -4,4 +4,12 @@ export class Person {
     constructor(name: string) {
         this.name = name;
     }
+
+    public showAge(age: number): void {
+        console.log(`${this.name} has ${age} years old.`);
+    }
+
+    public toString():string {
+        return `Class Person, name ${this.name}`;
+    }
 }
