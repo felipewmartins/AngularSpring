@@ -5,21 +5,7 @@
     "tasks": [
         {
             "type": "typescript",
-            "tsconfig": "aula1/tsconfig.json",
-            "problemMatcher": [
-                "$tsc"
-            ]
-        },
-        {
-            "type": "typescript",
-            "tsconfig": "lesson-01-classes/tsconfig.json",
-            "problemMatcher": [
-                "$tsc"
-            ]
-        },
-        {
-            "type": "typescript",
-            "tsconfig": "lesson02-interfaces/tsconfig.json",
+            "tsconfig": "tsconfig.json",
             "problemMatcher": [
                 "$tsc"
             ]
